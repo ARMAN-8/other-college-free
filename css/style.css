@@ -150,9 +150,19 @@ nav {
     font-size: 12px;
     color: #000;
 }
-.dropdown-item:hover{
-    color: red;
 
+.dropdown-item:hover {
+    color: red;
+}
 
 /*
 carosel-here*/
+
+.container-mobile-fluid {
+    width: 100%;
+}
+
+.col {
+    width: 10%;
+}
+
