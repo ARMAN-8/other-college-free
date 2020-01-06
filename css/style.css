@@ -38,29 +38,53 @@ body{
 .navbar{
     border-radius: 10px 10px 0px 0px;
 }
-.main-card{
+
+.main-card {
     border-radius: 0px 0px 10px 10px;
 }
-.languages{
+
+.social-n {
     list-style: none;
 }
-.languages li{
+
+.social-n li {
     display: inline-block;
 }
-.lang{
+
+.fa-instagram {
     color: #fff;
-    font-weight: bold;
 }
-.lang:active{
+
+.fa-instagram:hover {
+    color: red;
+}
+
+.fa-facebook-f {
+    color: #fff;
+}
+
+.fa-facebook-f:hover {
+    color: #3E5790;
+}
+
+.fa-vk {
+    color: #fff;
+}
+
+.fa-vk:hover {
+    color: #4F7DB3;
+}
+
+/*.lang:active{
     color: #000;
-}
+}*/
 /*hover-menu*/
 .body-wrap:after {
     top: auto;
     bottom: 0;
 
     background: linear-gradient(to bottom, rgba(26, 49, 95, 0) 0%, rgba(26, 49, 95, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#001a315f', endColorstr='#1a315f', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001a315f', endColorstr='#1a315f', GradientType=0);
 }
 nav {
     margin-top: 60px;
@@ -166,3 +190,27 @@ carosel-here*/
     width: 10%;
 }
 
+/*nurlan's carousel*/
+.col-md-3 {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.col-md-3 img {
+    width: 100%;
+    height: auto;
+}
+
+body .carousel-indicators li {
+    background-color: red;
+}
+
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+    background-color: red;
+}
+
+body .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
